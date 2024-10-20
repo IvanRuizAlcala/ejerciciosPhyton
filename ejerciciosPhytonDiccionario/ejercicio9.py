@@ -35,7 +35,7 @@ while True:
 
     print(f"Total cobrado hasta el momento: {total_cobrado:.2f}")
     print(f"Cantidad pendiente de cobro: {cantidad_pendiente:.2f}")
-
+            
 print("\nResumen final:")
 print(f"Total cobrado: {total_cobrado:.2f}")
 print(f"Cantidad pendiente: {cantidad_pendiente:.2f}")
