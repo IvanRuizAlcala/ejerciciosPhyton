@@ -9,7 +9,6 @@ while True:
     if opcion == "añadir":
         numero_factura = input("Introduce el número de factura: ")
         coste_factura = float(input("Introduce el coste de la factura: "))
-
         facturas[numero_factura] = coste_factura
         cantidad_pendiente += coste_factura 
         print(f"Factura {numero_factura} añadida con coste: {coste_factura}")
